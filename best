@@ -1,0 +1,73 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Gaming hub")
+
+local AdminTab = Window:NewTab("Admin")
+local Admin = AdminTab:NewSection("Admin for any game")
+Admin:NewButton("Admin", "Legit just admin", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))() 
+end)
+
+local antikickTab = Window:NewTab("Anti-Kick")
+local antikick = antikickTab:NewSection("Anti-Kick for any game")
+antikick:NewButton("Anti-Kick", "Anti-Kick dumbass", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/FabianDream/AntiAfk/main/main"))()
+end)
+
+local arsenalTab = Window:NewTab("Arsenal/Counter Blox")
+local arsenal = arsenalTab:NewSection("Arsenal/Counter Blox only")
+arsenal:NewButton("Arsenal/Counter Blox", "Silent aim, kill all", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main"))();
+end)
+
+local JailbreakTab = Window:NewTab("Jailbreak")
+local Jailbreak = JailbreakTab:NewSection("Jailbreak Auto Robbing")
+Jailbreak:NewButton("Auto Rob", "You will probably get banned ngl", function()
+  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d4b0843f800d5dcac07568e18190b7e.lua"))()
+end)
+
+local BPTab = Window:NewTab("Big Paintball")
+local BP = BPTTab:NewSection("Big Paintball silent aim")
+BP:NewButton("Big Paintball", "Silent aim and wallbang", function()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+end)
+
+local BABTab = Window:NewTab("Build A Boat")
+local BAB = BABTab:NewSection("Build a boat auto farm")
+BAB:NewButton("Build a Boat", "auto farm and speedhacks", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
+end)
+
+local FTAPTab = Window:NewTab("Fling Things and People")
+local FTAP = FTAPTab:NewSection("Fling Things and People")
+FTAP:NewButton("Fling Things and People", "no grab, strong throw", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/FlingThingsAndPeople"))()
+end)
+
+local MN2Tab = Window:NewTab("Mining Sim 2")
+local MN2 = MN2Tab:NewSection("Mining sim 2")
+MN2:NewButton("Mining sim 2", "mines specific ores", function()
+  loadstring(game:HttpGet("https://system-exodus.com/scripts/MiningSimulator/MiningSimulator2.lua", true))()
+end)
+
+local MM2Tab = Window:NewTab("Murder Mystery 2")
+local MM2 = MM2Tab:NewSection("Murder Mystery 2")
+MM2:NewButton("Murder Mystery 2", "Best murder mystery hack ever", function()
+  getgenv().mainKey = "nil";
+  
+  local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+
+local SharkbiteTab = Window:NewTab("Sharkbite2")
+local  Sharkbite = SharkbiteTab:NewSection("Sharkbite 2")
+Sharkbite:NewButton("Sharkbite 2", "does something, i forgot tbh", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/SleeksScripts/Sharkbite-2-script/main/Script'))()
+end)
+
+local TFootballTab = Window:NewTab("Touch Football")
+local TFootball = TFootballTab:NewSection("You cannot put both scripts at once, the goal hack wont work.")
+TFootball:NewButton("Inf money", "collects the money that is around the map", function()
+  loadstring(game:HttpGet("https://pawie.tech/scripts/touchfb.lua", true))()
+end)
+TFootball:NewButton("Goal hack", "makes u the football", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/FabianDream/Touch-Football-money-hack/main/hack'))()
+end)
