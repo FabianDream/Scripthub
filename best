@@ -26,7 +26,7 @@ Jailbreak:NewButton("Auto Rob", "You will probably get banned ngl", function()
 end)
 
 local BPTab = Window:NewTab("Big Paintball")
-local BP = BPTTab:NewSection("Big Paintball silent aim")
+local BP = BPTab:NewSection("Big Paintball silent aim")
 BP:NewButton("Big Paintball", "Silent aim and wallbang", function()
   loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
